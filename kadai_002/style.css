@@ -1,0 +1,40 @@
+body{
+    font-size: 6rem;
+    text-align: center;
+}
+/* タイマー表示領域 */
+.count{
+    font-weight: bold;
+    color: #888;
+    margin: 0;
+}
+/*  テキスト表示領域*/
+.wrap{
+    margin-top: 20px;
+    padding: 80px 40px;
+    background-color: #666;
+    font-weight: bold;
+    color: #fff;
+}
+.typeCounter{
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    margin: 0;    
+}
+.character{
+    font-size: 1rem;
+    font-weight: bold;
+    color: skyblue;
+    margin: 0;   
+}
+
+
+/* 正しくタイプされた場合のテキスト */
+.typed{
+    color: lightgreen;
+}
+/* ミス対応の場合の背景 */
+.mistyped{
+    background-color: red;
+}
